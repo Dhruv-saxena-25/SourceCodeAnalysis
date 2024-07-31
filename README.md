@@ -11,11 +11,11 @@ Project repo: https://github.com/
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n llmapp python=3.8 -y
+conda create -p venv python=3.10 -y
 ```
 
 ```bash
-conda activate llmapp
+conda activate venv/
 ```
 
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ### Create a `.env` file in the root directory and add your OPENAI_API_KEY credentials as follows:
 
 ```ini
-OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+GOOGLE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
